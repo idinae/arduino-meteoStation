@@ -1,3 +1,14 @@
 //Luftdaten.info API "Pins"
 https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md
 
+For use of multiple sensors with Luftdaten.info, you need to specify a virtual API Pin for the use of Luftdaten.info
+in the Luftdaten.info sensor registration. The firmware uses the following API pins hardcoded. 
+These match what the Luftdaten.info expect and will use by default when selecting the correct sensor model.
+
+HPM/PMS/SDS011/SPS30 => Pin 1
+BMP180/BMP280 => Pin 3
+DHT22/HTU21D/SHT3x => Pin 7
+GPS(Neo-6M) => Pin 9
+BME280 => Pin 11
+DS18B20 => Pin 13
+DNMS +> Pin 15
